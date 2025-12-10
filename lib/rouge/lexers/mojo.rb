@@ -21,7 +21,7 @@ module Rouge
         @keywords ||= super + %w(
           fn self alias out read mut owned ref var
           struct trait raises with in match case
-          deinit
+          deinit comptime
         )
       end
 
